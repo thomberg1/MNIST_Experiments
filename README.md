@@ -36,7 +36,7 @@ The results of above experimentation scripts are summarized in the table below:
 
 ![Alt text](images/transforms.jpg?raw=true "")
 <br/><br/>
-<b>MNIST CAM</b> - notebook to interactively explore activation maps in the final layer before the fully connected layer, i.e. to visualize what the neural network (its convolution layers) are focusing on.
+<b>MNIST CAM</b> - notebook to interactively explore activation maps in the final layer before the fully connected layer, i.e. to visualize what the neural network (its convolution layers) is focusing on.
 <br/>
 
 ![Alt text](images/cam.jpg?raw=true "")
