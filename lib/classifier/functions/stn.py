@@ -1,3 +1,5 @@
+# from https://github.com/fxia22/stn.pytorch/tree/master/script/functions
+
 # functions/add.py
 import torch
 from torch.autograd import Function
