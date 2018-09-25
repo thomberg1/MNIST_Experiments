@@ -1,3 +1,5 @@
+# from https://github.com/fxia22/stn.pytorch/blob/master/script/modules/gridgen.py
+
 import torch
 from torch.nn.modules.module import Module
 from torch.autograd import Variable
