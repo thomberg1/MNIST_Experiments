@@ -29,7 +29,19 @@ The results of above experimentation scripts are summarized in the table below:
 
 <br/>
 <b>visualization_*</b> - notebooks that provide several interesting ways to explore the MNIST datasets using the trained neural networks.
-
+<br/>
 <b>Data Augmentation</b> - notebook to explore data transformations interactively. The script is used to define the parameters for the different augmentation functions such as rotate, shear, elastic transformation etc.
+<br/>
+![Alt text](images/transforms.jpg?raw=true "")
+<br/>
+<b>MNIST CAM</b> - notebook to interactively explore activation maps in the final layer before the fully connected layer, i.e. to visualize what the neural network (its convolution layers) are focusing on.
+<br/>
+![Alt text](images/cam.jpg?raw=true "")
+<br/>
+<b> MNIST Recognizer GUI</b> - provides a GUI to draw a digit and to classify the digit using the LeNet 5 3 model.
+<br/>
+![Alt text](images/recognizer.jpg?raw=true "")
 
+
+![Alt text](images/recognizer.jpg?raw=true "")
 
