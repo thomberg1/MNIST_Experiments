@@ -7,6 +7,9 @@ MNIST (Modified National Institute of Standards and Technology) is a dataset of 
 
 <b>experiments_*</b> - notebooks that train several different models with and without augmentation. To get to consistent results that allow a comparison of models hyperparameter selection, model training, and model evaluation are fully automated. 
 
-The scripts use a brute force parameter grid evaluation using the sklearn <a href=http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.ParameterGrid.html>ParameterGrid</a>. The function takes a parameter grid and produces a list of dictionaries of parameters.
+The scripts use a brute force parameter grid evaluation using sklearn <a href=http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.ParameterGrid.html>ParameterGrid</a>. The function takes a parameter grid and produces a list of dictionaries of parameters.
 
 For each parameter dictionary the script spawns a sub process that trains the selected model architecture with the hyperparameters given both by the dictionary. Once all parameter combinations have been evaluated the script selects the trained model with the highest validation score and performs an evaluation.
+
+![Alt text](images/parametereval.jpg?raw=true "")
+<br/>
