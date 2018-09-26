@@ -1,3 +1,5 @@
+# from https://github.com/pytorch/vision/blob/master/torchvision/datasets/mnist.py
+
 import torch.utils.data as data
 from PIL import Image
 import os
